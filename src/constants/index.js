@@ -29,31 +29,39 @@ export const PROJECTS = [
   {
     title: "CodeBook E-Commerce Website",
     image: project1,
-    description: "CodeBook is an eBook shop built with ReactJS, featuring the sleek styling of TailwindCSS. The project's goal is to gain an understanding of frontend development using ReactJS and working with libraries such as React Router and JSON Server. It covers authentication, navigating between different application pages using routing, event handling, working with APIs, managing forms, using .env files, and deploying the frontend on Netlify and the backend on Render.",
+    description: "CodeBook is an eBook shop built with ReactJS, featuring the sleek styling of TailwindCSS. It covers authentication, navigating between different application pages using routing, event handling, working with APIs, managing forms, using .env files, and deploying the frontend on Netlify and the backend on Render.",
     technologies: ["ReactJS", "Redux", "React-Router", "TailwindCSS"],
+    demo:"https://codebook-as.netlify.app/",
+    github:"https://github.com/AbhishekSadhwani/CodeBook",
   },
   {
     title: "Cinemate ",
     image: project2,
     description: "Cinemate is a movie information web application developed using ReactJS for a responsive user experience, the sleek styling of TailwindCSS, and libraries like React Router for seamless navigation. The goal of this project is to gain an understanding of working with APIs, making fetch calls using async functions, and working with react hooks.",
     technologies: ["ReactJS", "TMDB API", "TailwindCSS", "React-Router"],
+    demo:"https://cinemate-as.netlify.app/movies",
+    github:"https://github.com/AbhishekSadhwani/Cinemate-React-App",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description: "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "TailwindCSS", "Netlify"],
+    technologies: ["ReactJS", "TailwindCSS", "Netlify"],
+    demo:"https://abhisheksadhwani.netlify.app/",
+    github:"https://github.com/AbhishekSadhwani/Portfolio",
   },
   {
     title: "Broodl",
     image: project4,
     description: "Broodl is a mood tracker app made using Next JS and Firebase.",
     technologies: ["NextJS", "Firebase", "TailwindCSS","Netlify"],
+    demo:"https://broodl-as.netlify.app/",
+    github:"https://github.com/AbhishekSadhwani/Broodl",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Mumbai, Maharashtra 400708 ",
   phoneNo: "+91-9649435730",
   email: "abhisheksadhwani23@gmail.com",
 };
