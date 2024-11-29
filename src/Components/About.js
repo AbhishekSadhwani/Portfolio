@@ -1,5 +1,6 @@
 import { motion} from "framer-motion";
 import aboutImage from "../assets/about.jpg";
+import profile from "../assets/Untitled.png";
 import { ABOUT_TEXT } from "../constants/index";
 
 export const About = () => {
@@ -8,8 +9,8 @@ export const About = () => {
             <h1 className='text-4xl text-neutral-900 text-center my-20 dark:text-neutral-300'>About <span className="text-slate-700 dark:text-gray-500">Me</span></h1>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2 lg:p-8'>
-                    <div className="flex items-center justify-center">
-                        <motion.img initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} viewport={{ once: true }} transition={{duration:1}} className="rounded-2xl" src={aboutImage} alt="" />
+                    <div className="w-3/4 mx-auto flex items-center justify-center">
+                        <motion.img initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} viewport={{ once: true }} transition={{duration:1}} className="rounded-2xl filter brightness-75" src={profile} alt="" />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">

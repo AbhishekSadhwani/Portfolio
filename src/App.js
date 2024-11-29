@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import {Navbar, Hero, About, Technologies, Experience, Projects, Footer} from './Components';
 
 
-
 function App() {
   const [darkTheme, setDarkTheme] = useState(JSON.parse(localStorage.getItem("darkTheme")) || false);
 

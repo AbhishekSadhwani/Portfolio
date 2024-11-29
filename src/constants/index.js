@@ -61,7 +61,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Mumbai, Maharashtra 400708 ",
+  address: "Jaipur, Rajasthan 302002",
   phoneNo: "+91-9649435730",
   email: "abhisheksadhwani23@gmail.com",
 };
