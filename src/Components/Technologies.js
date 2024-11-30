@@ -26,7 +26,7 @@ export const Technologies = () => {
 
     return (
         <section className='border-b border-gray-200 dark:border-neutral-900 pb-24'>
-            <motion.h2 initial={{y:-100,opacity:0}} whileInView={{y:0,opacity:1}} viewport={{ once: true }} transition={{duration:1.5}} className='text-center text-4xl text-neutral-900 my-20 dark:text-neutral-300'>Technologies</motion.h2>
+            <motion.h2 initial={{y:-100,opacity:0}} whileInView={{y:0,opacity:1}} viewport={{ once: true }} transition={{duration:1.5}} className='text-center text-2xl md:text-4xl text-neutral-900 my-20 dark:text-neutral-300'>Technologies</motion.h2>
             <motion.div initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} viewport={{ once: true }} transition={{duration:1.5}}  className='flex flex-wrap items-center justify-center gap-4'>
                 <motion.div variants={techBoxtransition(2)} initial="hidden" animate="visible" className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaReact className="text-7xl text-cyan-400" />
