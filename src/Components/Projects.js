@@ -17,7 +17,7 @@ export const Projects = () => {
                     <div className="w-full max-w-xl lg:w-3/4">
                         <motion.div initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} viewport={{ once: true }} transition={{duration:1.5}} className="flex flex-col">
                             <p className="text-base md:text-lg text-black font-semibold mb-2 dark:text-neutral-200">{project.title}</p>
-                            <p className="text-base md:text-lg mb-2 text-neutral-900 dark:text-neutral-400">{project.description}</p>
+                            <p className="text-justify text-base md:text-lg mb-2 text-neutral-900 dark:text-neutral-400">{project.description}</p>
                             <div className="flex flex-wrap">
                                 {project.technologies.map((technology, index) => (
                                     <span key={index} className="px-2 py-1 mr-2 mt-2 text-white text-sm font-medium rounded bg-neutral-900 dark:text-purple-800">{technology}</span>

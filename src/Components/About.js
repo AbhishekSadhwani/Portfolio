@@ -14,7 +14,7 @@ export const About = () => {
                 </div>
                 <div className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                        <motion.p initial={{x:100,opacity:0}} viewport={{ once: true }} whileInView={{x:0,opacity:1}} transition={{duration:1}} className="text-base md:text-lg max-w-xl my-2 py-6 text-neutral-900 dark:text-neutral-300">{ABOUT_TEXT}</motion.p>
+                        <motion.p initial={{x:100,opacity:0}} viewport={{ once: true }} whileInView={{x:0,opacity:1}} transition={{duration:1}} className="text-justify text-base md:text-lg max-w-xl my-2 py-6 text-neutral-900 dark:text-neutral-300">{ABOUT_TEXT}</motion.p>
                     </div>
                 </div>
             </div>
