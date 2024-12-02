@@ -1,5 +1,4 @@
 import { motion} from "framer-motion";
-import profile from "../assets/profile.png";
 import { ABOUT_TEXT } from "../constants/index";
 
 export const About = () => {
